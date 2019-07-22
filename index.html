@@ -65,7 +65,7 @@
                 
                 $('.searched').remove();
                 //Display input value
-                //console.log(inputVal.val());
+                //console..val());
                 
                 // Make an API request IN THIS LINE
                 /* 
@@ -95,7 +95,7 @@
                             $.ajax({
                                 // Coded ********************************************
                                 method: 'GET',
-                                url: API_URL + inputVal.val(), 
+                                url: API_URL + inp.val(), 
                                 headers:{
                             'x-api-key' : API_KEY
                             }
@@ -113,7 +113,7 @@
                                 
                                 //console.log(parameter.length);
                                 if(parameter.length >= 1){
-                                    resultContainer.append(`<h3>Search results for "${inputVal.val()}"</h3>`);
+                                    resultContainer.append(`<h3>Search results for "${inp.val()}"</h3>`);
                                     $('.searched').remove();    
                                     sea.attr("src" , null);
                                     parameter.forEach(function(res){
@@ -134,7 +134,7 @@
                                 }
                                 else{
                                     $('.searched').remove();
-                                    resultContainer.append(`<h3>No search results for "${inputVal.val()}"</h3>`);
+                                    resultContainer.append(`<h3>No search results for.val()}"</h3>`);
                                     sea.css("margin-top","-5px")
                                     sea.attr("src" , gifnores);
                                 }
@@ -151,7 +151,7 @@
                                 * other things that you want to add*/
 
                                 // Coded ********************************************
-                                inputVal.val('');
+                            inp.val('');
                             })
                 
                
