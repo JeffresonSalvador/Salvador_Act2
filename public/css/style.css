@@ -92,7 +92,7 @@ header{
 }
 #contai{
 
-   paddng: 150px;
+  
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -105,13 +105,6 @@ header{
 }
 
 .data{
-    display: flex;
-    padding: 50px;
-    flex-direction: column;
-    align-content: center;
-    text-align: center;
-}
-#data{
     display: flex;
     padding: 50px;
     flex-direction: column;
