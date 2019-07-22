@@ -92,7 +92,7 @@ header{
 }
 #contai{
 
-   
+   paddng: 150px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
