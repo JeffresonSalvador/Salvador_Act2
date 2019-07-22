@@ -71,7 +71,7 @@
                 //Prevents the form to reload the page
                 e.preventDefault();
            
-
+                $("li").remove();
 
                 $("#submit-btn").click(function(){
 
@@ -101,7 +101,7 @@
                         });
                     
                         parsedata.append(items);
-                        $("#trick").hide();
+                        $("#trick").remove();
                         
                     })
                    
